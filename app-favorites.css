@@ -1,8 +1,8 @@
 /* header */
-ul{
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-right: 35px;
+header ul{
+    padding-top: 4px;
+    padding-bottom: 0px;
+    padding-right: 60px;
     padding-left: 0;
     list-style: none;
     margin-left: 0;
@@ -13,13 +13,12 @@ ul{
     font-size: 30px;
     overflow: hidden;    
 }
-li{
+header li{
     display: inline;
     margin-left: 15px;
     border-left: solid white 1px;
-
 }
-li a{
+header li a{
     text-decoration: none;
     color: white;
     padding: 12px 12px;
@@ -27,15 +26,19 @@ li a{
 }
 .active{
     background-color: rgb(160, 17, 46);
-    padding: 9px 9px;
     border-left: 0;
     margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0%;
     text-align: center;
     border-left: white solid 1px;
+    padding-bottom: 10px;
+    padding-top: 0;
 }
-li:not(.active):hover{
+header li:not(.active):hover{
     background-color: rgb(160, 17, 46) ;
     padding: auto;
+    overflow: hidden;
 }
 header{
     position: fixed;
@@ -43,21 +46,21 @@ header{
     width: 100%;
     margin-left: 0;
 }
-li a .Bin1 {
+header li a .Bin1 {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
 }
-li a .Marv1 {
+header li a .Marv1 {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
 }
-li a .Ub1 {
+header li a .Ub1 {
     display: inline-block;
     color: white;
     text-align: center;
@@ -66,6 +69,7 @@ li a .Ub1 {
 }
 .Binance{
     display: inline-block;
+    margin-bottom: 0;
 }
 .Marvel{
     display: inline-block;
@@ -127,7 +131,7 @@ li a .Ub1 {
 .Uber:hover .Ubinside{
     display: block;
 }
-h1{
+header h1{
     font-family: 'Raleway', sans-serif;
     background-image: url(tete.jpg);
     color: whitesmoke;
@@ -135,45 +139,49 @@ h1{
     padding-bottom: 55px;
     padding-top: 35px;
     margin-bottom: 0;
+    margin-top: 0;
     width: 100%;
     background-size: contain;
 }
 /* main */
 main{
-    margin-top: 30px;
+    margin-top: 100px;
     width: 100%;
-    padding: 20px;
+    background-color: black;
+    color: gold;
+    font-size: 20px;
 }
 /* footer */
-.mega{
+footer .mega{
     display: flex;
     width: 100%;
     background-image: url(tete.jpg);
-    margin-top: 150px;
-    padding-top: 35px;
     color: whitesmoke;
     background-size: contain;
     justify-content: space-between;
     font-family: 'Raleway', sans-serif;
 }
-.gauche{
+footer.gauche{
     width: 50%;
 }
-.centre{
+footer .centre{
     width: 50%;
-    margin-right: 0;
     text-align: right;
+    margin-right: 10px;
 }
 footer .mega ul{
     display: flex;
     flex-direction: column;
     font-size: 30px;
     background-color: transparent;
+    margin-right: 0px;
+    list-style: none;
 }
-footer .mega li{
-    border: none;
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
 }
 footer .mega li:hover{
     background-color: transparent;
-    padding: 3px 3px;
+    font-size: 35px;
 }
