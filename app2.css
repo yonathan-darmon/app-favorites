@@ -1,6 +1,6 @@
 /* header */
 header ul{
-    padding-top: 4px;
+    padding-top: 2px;
     padding-bottom: 0px;
     padding-right: 60px;
     padding-left: 0;
@@ -137,20 +137,41 @@ header h1{
     color: whitesmoke;
     text-align: center;
     padding-bottom: 55px;
-    padding-top: 35px;
+    padding-top: 20px;
     margin-bottom: 0;
     margin-top: 0;
     width: 100%;
     background-size: contain;
+    font-size: 50px;
 }
 /* main */
 main{
-    margin-top: 100px;
+    margin-top: 150px;
     width: 100%;
-    background-color: black;
-    color: gold;
-    font-size: 20px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    padding-top: 30px;
+    margin-bottom: 0px;
 }
+.section1{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 35px;
+    padding-top: 15px;
+}
+.sous11{
+    width: 50%;
+}
+.sous12{
+    width: 50%;
+}
+h2{
+    text-decoration: underline;
+}
+
+
 /* footer */
 footer .mega{
     display: flex;

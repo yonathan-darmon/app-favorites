@@ -1,6 +1,6 @@
 /* header */
 header ul{
-    padding-top: 4px;
+    padding-top: 2px;
     padding-bottom: 0px;
     padding-right: 60px;
     padding-left: 0;
@@ -137,11 +137,12 @@ header h1{
     color: whitesmoke;
     text-align: center;
     padding-bottom: 55px;
-    padding-top: 35px;
+    padding-top: 20px;
     margin-bottom: 0;
     margin-top: 0;
     width: 100%;
     background-size: contain;
+    font-size: 50px;
 }
 /* main */
 main{
@@ -159,12 +160,13 @@ main{
 }
 .sous11{
     width: 45%;
+    margin-top: 150px;
 }
 .sous12{
     width: 45%;
     text-align: left justify;
     padding-left: 10px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .section2{
     display: flex;
@@ -175,11 +177,12 @@ main{
     width: 45%;
     text-align: left justify;
     padding-left: 10px;
-    margin-top: 0;
+    margin-top: 150px;
 }
 .sous22{
     width: 45%;
     padding-top: 30px;
+    margin-top: 150px;
 }
 main a{
     text-decoration: none;
@@ -199,6 +202,7 @@ main a:hover{
 .imagetitre{
     font-size: 2em;
     font-weight: bold;
+    text-align: center;
 }
 .imgdescription{
     font-size: 1.10em;
@@ -224,6 +228,10 @@ main a:hover{
     display: flex;
     width: 100%;
     justify-content: space-between;
+}
+.sous31{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .sous32{
     display: flex;
