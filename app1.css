@@ -149,7 +149,8 @@ main{
     width: 100%;
     background-color: black;
     color: gold;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 .section1{
     display: flex;
@@ -218,6 +219,24 @@ main a:hover{
 }
 .overlay:hover{
     opacity: 1;
+}
+.section3{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.sous32{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-image: url(binacademy.jpeg);
+    background-size: contain;
+    color: whitesmoke
+}
+.sous32 a{
+    text-decoration: underline;
+    color: whitesmoke;
 }
 /* footer */
 footer .mega{
