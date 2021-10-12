@@ -29,6 +29,8 @@ li a{
     padding: 9px 9px;
     border-left: 0;
     margin-left: 0;
+    text-align: center;
+    border-left: white solid 1px;
 }
 li:not(.active):hover{
     background-color: rgb(160, 17, 46) ;
