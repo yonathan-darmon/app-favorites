@@ -35,7 +35,7 @@ li a{
 }
 li:not(.active):hover{
     background-color: rgb(160, 17, 46) ;
-    padding: 5px 5px;
+    padding: auto;
 }
 header{
     position: fixed;
@@ -146,24 +146,34 @@ main{
 }
 /* footer */
 .mega{
-    display: block;
+    display: flex;
     width: 100%;
     background-image: url(tete.jpg);
     margin-top: 150px;
     padding-top: 35px;
     color: whitesmoke;
-    float:left;
     background-size: contain;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
 }
 .gauche{
-    width: 30%;
-    float: left;
+    width: 50%;
 }
 .centre{
-    width: 30%;
-    float: left;
+    width: 50%;
+    margin-right: 0;
+    text-align: right;
 }
-.droite{
-    width: 30%;
-    float: left;
+footer .mega ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    background-color: transparent;
+}
+footer .mega li{
+    border: none;
+}
+footer .mega li:hover{
+    background-color: transparent;
+    padding: 3px 3px;
 }
