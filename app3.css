@@ -1,8 +1,8 @@
 /* header */
 ul{
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-right: 35px;
+    padding-top: 4px;
+    padding-bottom: 0px;
+    padding-right: 60px;
     padding-left: 0;
     list-style: none;
     margin-left: 0;
@@ -17,7 +17,6 @@ li{
     display: inline;
     margin-left: 15px;
     border-left: solid white 1px;
-
 }
 li a{
     text-decoration: none;
@@ -27,15 +26,19 @@ li a{
 }
 .active{
     background-color: rgb(160, 17, 46);
-    padding: 9px 9px;
     border-left: 0;
     margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0%;
     text-align: center;
     border-left: white solid 1px;
+    padding-bottom: 10px;
+    padding-top: 0;
 }
 li:not(.active):hover{
     background-color: rgb(160, 17, 46) ;
-    padding: 5px 5px;
+    padding: auto;
+    overflow: hidden;
 }
 header{
     position: fixed;
@@ -66,6 +69,7 @@ li a .Ub1 {
 }
 .Binance{
     display: inline-block;
+    margin-bottom: 0;
 }
 .Marvel{
     display: inline-block;
@@ -140,7 +144,7 @@ h1{
 }
 /* main */
 main{
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
     padding: 20px;
 }
