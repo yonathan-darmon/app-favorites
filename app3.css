@@ -12,6 +12,7 @@ header ul{
     color: white;
     font-size: 30px;
     overflow: hidden;    
+    font-family: 'Raleway', sans-serif;
 }
 header li{
     display: inline;

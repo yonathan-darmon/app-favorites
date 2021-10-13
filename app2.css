@@ -11,7 +11,8 @@ header ul{
     background-color: darkblue;
     color: white;
     font-size: 30px;
-    overflow: hidden;    
+    overflow: hidden;  
+    font-family: 'Raleway', sans-serif;  
 }
 header li{
     display: inline;
@@ -45,6 +46,7 @@ header{
     top: 0;
     width: 100%;
     margin-left: 0;
+    z-index: 1000;
 }
 header li a .Bin1 {
     display: inline-block;
@@ -135,7 +137,6 @@ header h1{
     font-family: 'Raleway', sans-serif;
     background-image: url(tete.jpg);
     color: whitesmoke;
-    text-align: center;
     padding-bottom: 55px;
     padding-top: 20px;
     margin-bottom: 0;
@@ -143,36 +144,141 @@ header h1{
     width: 100%;
     background-size: contain;
     font-size: 50px;
+    display: block;
+}
+.H1{
+    display: block; 
+    text-align: center;
+    width: 100%;
+}
+audio{
+    display: block;
+    width: 30%;
+    padding-left: 35%;
+    
 }
 /* main */
 main{
-    margin-top: 150px;
+    margin-top: 100px;
     width: 100%;
     background-color: red;
     color: white;
     font-size: 25px;
     font-family: 'Anton', sans-serif;
-    padding-top: 30px;
     margin-bottom: 0px;
 }
 .section1{
     display: flex;
     justify-content: space-between;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-left: 10px;
+    padding-top: 200px;
+    margin-bottom: 0px;
 }
 .sous11{
     width: 50%;
+    padding-left: 20px;
 }
 .sous12{
-    width: 50%;
+    width: 60%;
 }
 h2{
     text-decoration: underline;
 }
-
-
+.section1 img{
+    transform: rotate(20deg) translateX(-100px) translateY(100px);
+    z-index: 10;
+}
+.section2{
+    padding-top: 50px;
+    margin-top: 50px;
+    display: flex;
+}
+.sous21{
+    padding-top: 200px;
+    margin-top: 0px;
+    width: 60%;
+}
+.sous22{
+    width: 40%;
+    padding-top: 150px;
+}
+.sous22 a{
+    text-decoration: none;
+    color: white;
+}
+.sous22 a:hover{
+    font-size: 30px;
+    background: transparent
+}
+.section3{
+    display: flex;
+}
+.sous31{
+    width: 30%;
+}
+.sous31 li{
+    list-style: none;
+}
+.sous31 a{
+    text-decoration: none;
+    color: white;
+}
+.sous31 a:hover{
+    font-size: 30px;
+    background: transparent
+}
+.sous32{
+    width: 30%;
+}
+iframe{
+    border-radius: 30px;
+    border: transparent 1px;
+}
+.sous33{
+    width: 33%;
+    margin-right: 110px;
+    padding-right: 50px;
+}
+.image{
+    position: relative;
+    width: 500px;
+}
+.image--image{
+    display: block;
+    width: 100%;
+    background-size: contain;
+}
+.imagetitre{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.imgdescription{
+    font-size: 1.50em;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.548);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.sous33 a{
+    text-decoration: none;
+    color: white;
+}
+.sous33 a:hover{
+    font-size: 30px;
+}
 /* footer */
 footer .mega{
     display: flex;
